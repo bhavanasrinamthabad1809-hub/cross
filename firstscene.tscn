@@ -1,0 +1,11 @@
+[gd_scene format=3 uid="uid://dujweqlgsicff"]
+
+[ext_resource type="Texture2D" uid="uid://doghmovcgeltw" path="res://graphics/map.png" id="1_ds606"]
+
+[node name="game" type="Node2D" unique_id=753685134]
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1937729204]
+texture_filter = 1
+position = Vector2(692.50006, 296.50003)
+scale = Vector2(4.106771, 1.3890625)
+texture = ExtResource("1_ds606")
