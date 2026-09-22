@@ -1,11 +1,137 @@
 [gd_scene format=3 uid="uid://dujweqlgsicff"]
 
 [ext_resource type="Texture2D" uid="uid://doghmovcgeltw" path="res://graphics/map.png" id="1_ds606"]
+[ext_resource type="PackedScene" uid="uid://ctxmk5hmjk5ak" path="res://player.tscn" id="2_8rss6"]
+[ext_resource type="PackedScene" uid="uid://dogq4a7oh6gsn" path="res://execriseobject.tscn" id="3_q6u20"]
+[ext_resource type="Texture2D" uid="uid://d0so81ys3820n" path="res://graphics/objects/tree1.png" id="4_ujkd0"]
+[ext_resource type="Texture2D" uid="uid://y3ndpd5bhsi3" path="res://graphics/objects/tree2.png" id="5_6qt55"]
+[ext_resource type="Texture2D" uid="uid://d1h0ksxlju0ou" path="res://graphics/objects/house1.png" id="6_hrcku"]
+[ext_resource type="Texture2D" uid="uid://dxciltwc3sgll" path="res://graphics/objects/house2.png" id="7_ysgsg"]
+[ext_resource type="Texture2D" uid="uid://cgvtilagem3np" path="res://graphics/objects/red car.png" id="8_8thu0"]
+[ext_resource type="Texture2D" uid="uid://73gfa8tjrcik" path="res://graphics/objects/house3.png" id="9_72mhk"]
+[ext_resource type="Texture2D" uid="uid://b3jchn0artiyt" path="res://graphics/objects/line.png" id="10_hek0x"]
+[ext_resource type="Texture2D" uid="uid://cxutqp0hti8vw" path="res://graphics/objects/bench.png" id="11_cweo2"]
+[ext_resource type="Texture2D" uid="uid://beho7qo80tneo" path="res://graphics/objects/bin.png" id="12_pvrwn"]
+[ext_resource type="Texture2D" uid="uid://b8fq8sgkmu4dx" path="res://graphics/objects/green car.png" id="13_xh758"]
+[ext_resource type="Texture2D" uid="uid://58kopy31xbf8" path="res://graphics/objects/taxi.png" id="14_aa2uq"]
 
 [node name="game" type="Node2D" unique_id=753685134]
 
 [node name="Sprite2D" type="Sprite2D" parent="." unique_id=1937729204]
 texture_filter = 1
-position = Vector2(692.50006, 296.50003)
-scale = Vector2(4.106771, 1.3890625)
+position = Vector2(766, 403.00003)
+scale = Vector2(4.0000005, 1.2367188)
 texture = ExtResource("1_ds606")
+
+[node name="player" parent="." unique_id=1716391270 instance=ExtResource("2_8rss6")]
+texture_filter = 1
+position = Vector2(1239, 432)
+
+[node name="execriseobject" parent="." unique_id=502078762 instance=ExtResource("3_q6u20")]
+position = Vector2(209, 136)
+
+[node name="Tree1" type="Sprite2D" parent="execriseobject" unique_id=310955577]
+texture_filter = 1
+position = Vector2(-166, 589.00006)
+scale = Vector2(3.857143, 3.699999)
+texture = ExtResource("4_ujkd0")
+
+[node name="Tree2" type="Sprite2D" parent="execriseobject/Tree1" unique_id=1540220862]
+texture_filter = 1
+position = Vector2(120.29629, 0.54052734)
+scale = Vector2(0.8518517, 0.8558558)
+texture = ExtResource("5_6qt55")
+
+[node name="House1" type="Sprite2D" parent="execriseobject/Tree1" unique_id=1082895754]
+texture_filter = 1
+position = Vector2(25.407408, 10.4053955)
+scale = Vector2(0.22685184, 0.19256754)
+texture = ExtResource("6_hrcku")
+
+[node name="House2" type="Sprite2D" parent="execriseobject/Tree1" unique_id=1523378820]
+texture_filter = 1
+position = Vector2(141.81482, 1.6216125)
+scale = Vector2(0.25925925, 0.27027035)
+texture = ExtResource("7_ysgsg")
+
+[node name="RedCar" type="Sprite2D" parent="execriseobject/Tree1" unique_id=1268132524]
+texture_filter = 1
+position = Vector2(159.96297, -4.256775)
+scale = Vector2(0.4861111, 0.3796655)
+texture = ExtResource("8_8thu0")
+
+[node name="House3" type="Sprite2D" parent="execriseobject/Tree1" unique_id=422348188]
+texture_filter = 1
+position = Vector2(181.22223, 2.16214)
+scale = Vector2(0.25925925, 0.27027035)
+texture = ExtResource("7_ysgsg")
+
+[node name="House4" type="Sprite2D" parent="execriseobject/Tree1" unique_id=2045635180]
+texture_filter = 1
+position = Vector2(347.4074, -167.8379)
+scale = Vector2(0.47530892, 0.42229745)
+texture = ExtResource("9_72mhk")
+
+[node name="Line" type="Sprite2D" parent="execriseobject/Tree1" unique_id=217605927]
+texture_filter = 1
+position = Vector2(109.14813, -78.108154)
+scale = Vector2(0.4657064, 0.6511059)
+texture = ExtResource("10_hek0x")
+
+[node name="Line2" type="Sprite2D" parent="execriseobject/Tree1" unique_id=1310736134]
+texture_filter = 1
+position = Vector2(83.09259, -77.02706)
+scale = Vector2(0.4176954, 0.68796074)
+texture = ExtResource("10_hek0x")
+
+[node name="Bench" type="Sprite2D" parent="execriseobject/Tree1" unique_id=95283296]
+position = Vector2(302.16666, -4.8648834)
+scale = Vector2(2.7366252, 0.7432431)
+texture = ExtResource("11_cweo2")
+
+[node name="Bin" type="Sprite2D" parent="execriseobject/Tree1" unique_id=999895858]
+texture_filter = 1
+position = Vector2(371.77777, -0.27028704)
+scale = Vector2(1.4259259, 1.7813272)
+texture = ExtResource("12_pvrwn")
+
+[node name="GreenCar" type="Sprite2D" parent="execriseobject/Tree1" unique_id=1384711040]
+position = Vector2(200.40741, -4.7297516)
+scale = Vector2(0.4861111, 0.39189202)
+texture = ExtResource("13_xh758")
+
+[node name="Tree3" type="Sprite2D" parent="execriseobject/Tree1" unique_id=127588024]
+position = Vector2(6.0925922, 4.3243103)
+scale = Vector2(0.3888889, 0.57657677)
+texture = ExtResource("5_6qt55")
+
+[node name="Taxi" type="Sprite2D" parent="execriseobject/Tree1" unique_id=538930465]
+position = Vector2(32.66667, -6.756775)
+scale = Vector2(0.5671295, 0.3861005)
+texture = ExtResource("14_aa2uq")
+
+[node name="Tree4" type="Sprite2D" parent="execriseobject/Tree1" unique_id=339059401]
+position = Vector2(45.88889, 6.7567463)
+scale = Vector2(0.5185185, 0.6576579)
+texture = ExtResource("5_6qt55")
+
+[node name="House5" type="Sprite2D" parent="execriseobject/Tree1" unique_id=359013218]
+position = Vector2(223.48148, 2.4324188)
+scale = Vector2(0.25925925, 0.27027035)
+texture = ExtResource("7_ysgsg")
+
+[node name="Taxi2" type="Sprite2D" parent="execriseobject/Tree1" unique_id=246873769]
+texture_filter = 1
+position = Vector2(240.72223, -4.8648834)
+scale = Vector2(0.4050932, 0.5148008)
+texture = ExtResource("14_aa2uq")
+
+[node name="Bench2" type="Sprite2D" parent="execriseobject/Tree1" unique_id=676062265]
+position = Vector2(290.1111, -10.000015)
+scale = Vector2(0.25925925, 0.27027035)
+texture = ExtResource("11_cweo2")
+
+[node name="House6" type="Sprite2D" parent="execriseobject/Tree1" unique_id=513259360]
+position = Vector2(261.07407, 1.8918762)
+scale = Vector2(0.4753083, 0.48141897)
+texture = ExtResource("9_72mhk")
