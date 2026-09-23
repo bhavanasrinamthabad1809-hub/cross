@@ -3,9 +3,6 @@
 [ext_resource type="Texture2D" uid="uid://d0dya2slufckd" path="res://graphics/cars/green.png" id="1_2dhjh"]
 [ext_resource type="Texture2D" uid="uid://ocjfhrelwysu" path="res://graphics/cars/red.png" id="2_ligfl"]
 [ext_resource type="Texture2D" uid="uid://ded8huv3lr1a7" path="res://graphics/cars/yellow.png" id="3_y5jeb"]
-[ext_resource type="Texture2D" uid="uid://cv8cli0ov53f1" path="res://graphics/objects/box2.png" id="4_rwqqh"]
-[ext_resource type="Texture2D" uid="uid://boj6kq1t4mduj" path="res://graphics/objects/tree potted.png" id="5_psrly"]
-[ext_resource type="Texture2D" uid="uid://cfe22lwgaf1k2" path="res://graphics/objects/traffic.png" id="6_vew4r"]
 
 [node name="execriseobject" type="Node2D" unique_id=502078762]
 
@@ -17,8 +14,8 @@ texture = ExtResource("1_2dhjh")
 
 [node name="Red" type="Sprite2D" parent="." unique_id=712140662]
 texture_filter = 1
-position = Vector2(728, 134.5)
-scale = Vector2(4.8181825, 2.954546)
+position = Vector2(210, 444)
+scale = Vector2(4.4090924, 2.3409097)
 texture = ExtResource("2_ligfl")
 
 [node name="Yellow" type="Sprite2D" parent="." unique_id=1115257599]
@@ -35,7 +32,7 @@ texture = ExtResource("1_2dhjh")
 
 [node name="Red2" type="Sprite2D" parent="." unique_id=726488963]
 texture_filter = 1
-position = Vector2(224.00006, 216.00002)
+position = Vector2(234.00002, 233.00002)
 scale = Vector2(5.1363635, 2.7727277)
 texture = ExtResource("2_ligfl")
 
@@ -47,7 +44,7 @@ texture = ExtResource("2_ligfl")
 
 [node name="Yellow3" type="Sprite2D" parent="." unique_id=1826021871]
 texture_filter = 1
-position = Vector2(137, 402.99997)
+position = Vector2(745, 405)
 scale = Vector2(4.7916665, 2.2272716)
 texture = ExtResource("3_y5jeb")
 
@@ -56,21 +53,3 @@ texture_filter = 1
 position = Vector2(404, 418.00003)
 scale = Vector2(4.5909095, 3.187502)
 texture = ExtResource("1_2dhjh")
-
-[node name="Box2" type="Sprite2D" parent="." unique_id=248075253]
-texture_filter = 1
-position = Vector2(446, 302)
-scale = Vector2(3.5, 3.3000002)
-texture = ExtResource("4_rwqqh")
-
-[node name="TreePotted" type="Sprite2D" parent="." unique_id=910946795]
-texture_filter = 1
-position = Vector2(380.25, 281)
-scale = Vector2(3.4642859, 2.25)
-texture = ExtResource("5_psrly")
-
-[node name="Traffic" type="Sprite2D" parent="." unique_id=887906297]
-texture_filter = 1
-position = Vector2(409, 261)
-scale = Vector2(2.2666688, 3.8928573)
-texture = ExtResource("6_vew4r")

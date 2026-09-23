@@ -9,44 +9,39 @@
 [ext_resource type="Texture2D" uid="uid://dxciltwc3sgll" path="res://graphics/objects/house2.png" id="7_ysgsg"]
 [ext_resource type="Texture2D" uid="uid://cgvtilagem3np" path="res://graphics/objects/red car.png" id="8_8thu0"]
 [ext_resource type="Texture2D" uid="uid://73gfa8tjrcik" path="res://graphics/objects/house3.png" id="9_72mhk"]
-[ext_resource type="Texture2D" uid="uid://b3jchn0artiyt" path="res://graphics/objects/line.png" id="10_hek0x"]
 [ext_resource type="Texture2D" uid="uid://cxutqp0hti8vw" path="res://graphics/objects/bench.png" id="11_cweo2"]
-[ext_resource type="Texture2D" uid="uid://beho7qo80tneo" path="res://graphics/objects/bin.png" id="12_pvrwn"]
+[ext_resource type="Texture2D" uid="uid://d0dya2slufckd" path="res://graphics/cars/green.png" id="13_hek0x"]
 [ext_resource type="Texture2D" uid="uid://b8fq8sgkmu4dx" path="res://graphics/objects/green car.png" id="13_xh758"]
 [ext_resource type="Texture2D" uid="uid://58kopy31xbf8" path="res://graphics/objects/taxi.png" id="14_aa2uq"]
+[ext_resource type="Texture2D" uid="uid://ocjfhrelwysu" path="res://graphics/cars/red.png" id="14_cweo2"]
+[ext_resource type="Texture2D" uid="uid://b4fngdelf2to2" path="res://working on a little set of 8px flowers and plants💚.jpg" id="15_pvrwn"]
+[ext_resource type="Texture2D" uid="uid://boj6kq1t4mduj" path="res://graphics/objects/tree potted.png" id="16_xh758"]
+[ext_resource type="Texture2D" uid="uid://oqgtp468wc6x" path="res://graphics/objects/sign.png" id="17_aa2uq"]
+[ext_resource type="Texture2D" uid="uid://cv8cli0ov53f1" path="res://graphics/objects/box2.png" id="18_1ekbc"]
+[ext_resource type="Texture2D" uid="uid://y78osdw0bolc" path="res://graphics/objects/box1.png" id="19_gtdfy"]
+[ext_resource type="Texture2D" uid="uid://cuqeolw7yvunc" path="res://graphics/objects/box3.png" id="20_5nppw"]
+[ext_resource type="Texture2D" uid="uid://ded8huv3lr1a7" path="res://graphics/cars/yellow.png" id="21_pvrwn"]
 
 [node name="game" type="Node2D" unique_id=753685134]
 
 [node name="Sprite2D" type="Sprite2D" parent="." unique_id=1937729204]
 texture_filter = 1
-position = Vector2(766, 403.00003)
-scale = Vector2(4.0000005, 1.2367188)
+position = Vector2(764, 411.875)
+scale = Vector2(4.0000005, 1.2714845)
 texture = ExtResource("1_ds606")
 
 [node name="player" parent="." unique_id=1716391270 instance=ExtResource("2_8rss6")]
 texture_filter = 1
-position = Vector2(1239, 432)
+position = Vector2(1368, 271)
 
 [node name="execriseobject" parent="." unique_id=502078762 instance=ExtResource("3_q6u20")]
-position = Vector2(209, 136)
+position = Vector2(193, 145)
 
 [node name="Tree1" type="Sprite2D" parent="execriseobject" unique_id=310955577]
 texture_filter = 1
-position = Vector2(-166, 589.00006)
+position = Vector2(-146, 610)
 scale = Vector2(3.857143, 3.699999)
 texture = ExtResource("4_ujkd0")
-
-[node name="Tree2" type="Sprite2D" parent="execriseobject/Tree1" unique_id=1540220862]
-texture_filter = 1
-position = Vector2(120.29629, 0.54052734)
-scale = Vector2(0.8518517, 0.8558558)
-texture = ExtResource("5_6qt55")
-
-[node name="House1" type="Sprite2D" parent="execriseobject/Tree1" unique_id=1082895754]
-texture_filter = 1
-position = Vector2(25.407408, 10.4053955)
-scale = Vector2(0.22685184, 0.19256754)
-texture = ExtResource("6_hrcku")
 
 [node name="House2" type="Sprite2D" parent="execriseobject/Tree1" unique_id=1523378820]
 texture_filter = 1
@@ -62,38 +57,14 @@ texture = ExtResource("8_8thu0")
 
 [node name="House3" type="Sprite2D" parent="execriseobject/Tree1" unique_id=422348188]
 texture_filter = 1
-position = Vector2(181.22223, 2.16214)
-scale = Vector2(0.25925925, 0.27027035)
+position = Vector2(181.22221, 1.2161937)
+scale = Vector2(0.25925905, 0.28716224)
 texture = ExtResource("7_ysgsg")
 
-[node name="House4" type="Sprite2D" parent="execriseobject/Tree1" unique_id=2045635180]
-texture_filter = 1
-position = Vector2(347.4074, -167.8379)
-scale = Vector2(0.47530892, 0.42229745)
-texture = ExtResource("9_72mhk")
-
-[node name="Line" type="Sprite2D" parent="execriseobject/Tree1" unique_id=217605927]
-texture_filter = 1
-position = Vector2(109.14813, -78.108154)
-scale = Vector2(0.4657064, 0.6511059)
-texture = ExtResource("10_hek0x")
-
-[node name="Line2" type="Sprite2D" parent="execriseobject/Tree1" unique_id=1310736134]
-texture_filter = 1
-position = Vector2(83.09259, -77.02706)
-scale = Vector2(0.4176954, 0.68796074)
-texture = ExtResource("10_hek0x")
-
 [node name="Bench" type="Sprite2D" parent="execriseobject/Tree1" unique_id=95283296]
-position = Vector2(302.16666, -4.8648834)
+position = Vector2(319.66666, -8.108128)
 scale = Vector2(2.7366252, 0.7432431)
 texture = ExtResource("11_cweo2")
-
-[node name="Bin" type="Sprite2D" parent="execriseobject/Tree1" unique_id=999895858]
-texture_filter = 1
-position = Vector2(371.77777, -0.27028704)
-scale = Vector2(1.4259259, 1.7813272)
-texture = ExtResource("12_pvrwn")
 
 [node name="GreenCar" type="Sprite2D" parent="execriseobject/Tree1" unique_id=1384711040]
 position = Vector2(200.40741, -4.7297516)
@@ -106,7 +77,7 @@ scale = Vector2(0.3888889, 0.57657677)
 texture = ExtResource("5_6qt55")
 
 [node name="Taxi" type="Sprite2D" parent="execriseobject/Tree1" unique_id=538930465]
-position = Vector2(32.66667, -6.756775)
+position = Vector2(44.59259, -10.54056)
 scale = Vector2(0.5671295, 0.3861005)
 texture = ExtResource("14_aa2uq")
 
@@ -116,22 +87,210 @@ scale = Vector2(0.5185185, 0.6576579)
 texture = ExtResource("5_6qt55")
 
 [node name="House5" type="Sprite2D" parent="execriseobject/Tree1" unique_id=359013218]
-position = Vector2(223.48148, 2.4324188)
+position = Vector2(224, 1.6216078)
 scale = Vector2(0.25925925, 0.27027035)
 texture = ExtResource("7_ysgsg")
 
 [node name="Taxi2" type="Sprite2D" parent="execriseobject/Tree1" unique_id=246873769]
 texture_filter = 1
-position = Vector2(240.72223, -4.8648834)
+position = Vector2(244.74072, -4.8648834)
 scale = Vector2(0.4050932, 0.5148008)
 texture = ExtResource("14_aa2uq")
 
-[node name="Bench2" type="Sprite2D" parent="execriseobject/Tree1" unique_id=676062265]
-position = Vector2(290.1111, -10.000015)
-scale = Vector2(0.25925925, 0.27027035)
+[node name="Green" type="Sprite2D" parent="execriseobject/Tree1" unique_id=682509104]
+texture_filter = 1
+position = Vector2(27.222225, -47.837875)
+scale = Vector2(1.1902356, 0.8868251)
+texture = ExtResource("13_hek0x")
+
+[node name="Red" type="Sprite2D" parent="execriseobject/Tree1" unique_id=1210026188]
+texture_filter = 1
+position = Vector2(362.18518, -49.729767)
+scale = Vector2(1.3905733, 0.66339064)
+texture = ExtResource("14_cweo2")
+
+[node name="House1" type="Sprite2D" parent="execriseobject" unique_id=1082895754]
+texture_filter = 1
+position = Vector2(-60, 644)
+scale = Vector2(0.87499994, 0.71249974)
+texture = ExtResource("6_hrcku")
+
+[node name="Bench2" type="Sprite2D" parent="execriseobject" unique_id=676062265]
+position = Vector2(968, 557)
 texture = ExtResource("11_cweo2")
 
-[node name="House6" type="Sprite2D" parent="execriseobject/Tree1" unique_id=513259360]
-position = Vector2(261.07407, 1.8918762)
-scale = Vector2(0.4753083, 0.48141897)
+[node name="House6" type="Sprite2D" parent="execriseobject" unique_id=513259360]
+position = Vector2(873, 614)
+scale = Vector2(1.8333321, 1.7812498)
 texture = ExtResource("9_72mhk")
+
+[node name="Tree2" type="Sprite2D" parent="execriseobject" unique_id=1540220862]
+texture_filter = 1
+position = Vector2(312.99997, 596)
+scale = Vector2(3.2857137, 3.1666658)
+texture = ExtResource("5_6qt55")
+
+[node name="RedCar" type="Sprite2D" parent="." unique_id=1304886911]
+texture_filter = 1
+position = Vector2(1155, 733)
+scale = Vector2(1.9375, 1.5952381)
+texture = ExtResource("8_8thu0")
+
+[node name="grass" type="Sprite2D" parent="." unique_id=1314751929]
+texture_filter = 1
+position = Vector2(124, 472.625)
+scale = Vector2(0.33831522, 0.123981)
+texture = ExtResource("15_pvrwn")
+
+[node name="grass2" type="Sprite2D" parent="." unique_id=149343403]
+texture_filter = 1
+position = Vector2(1110, 470.87503)
+scale = Vector2(0.4483697, 0.114470124)
+texture = ExtResource("15_pvrwn")
+
+[node name="Tree1" type="Sprite2D" parent="." unique_id=1585196246]
+position = Vector2(1014, 458)
+scale = Vector2(3.4821446, 2.95)
+texture = ExtResource("4_ujkd0")
+
+[node name="TreePotted" type="Sprite2D" parent="." unique_id=505139637]
+texture_filter = 1
+position = Vector2(111, 443)
+scale = Vector2(3.4285705, 2.90625)
+texture = ExtResource("16_xh758")
+
+[node name="Tree2" type="Sprite2D" parent="." unique_id=1840110571]
+texture_filter = 1
+position = Vector2(187, 464.00003)
+scale = Vector2(3.4285722, 2.1999998)
+texture = ExtResource("5_6qt55")
+
+[node name="TreePotted2" type="Sprite2D" parent="." unique_id=2113409820]
+texture_filter = 1
+position = Vector2(1501.75, 754.5)
+scale = Vector2(4.678571, 3.781249)
+texture = ExtResource("16_xh758")
+
+[node name="House3" type="Sprite2D" parent="." unique_id=275527261]
+texture_filter = 1
+position = Vector2(1401, 763)
+scale = Vector2(2.2500021, 1.7187505)
+texture = ExtResource("9_72mhk")
+
+[node name="WorkingOnALittleSetOf8PxFlowersAndPlants💚" type="Sprite2D" parent="." unique_id=1819157439]
+texture_filter = 1
+position = Vector2(643.5, 471.49997)
+scale = Vector2(0.35461953, 0.11005434)
+texture = ExtResource("15_pvrwn")
+
+[node name="WorkingOnALittleSetOf8PxFlowersAndPlants💚2" type="Sprite2D" parent="." unique_id=1148124079]
+texture_filter = 1
+position = Vector2(387.5, 452)
+scale = Vector2(0.38722825, 0.057065245)
+texture = ExtResource("15_pvrwn")
+
+[node name="WorkingOnALittleSetOf8PxFlowersAndPlants💚3" type="Sprite2D" parent="." unique_id=542875740]
+texture_filter = 1
+position = Vector2(1398.875, 449.00003)
+scale = Vector2(0.36107346, 0.055706553)
+texture = ExtResource("15_pvrwn")
+
+[node name="Tree3" type="Sprite2D" parent="." unique_id=758209204]
+texture_filter = 1
+position = Vector2(605, 460)
+scale = Vector2(3.3571439, 2.0666664)
+texture = ExtResource("5_6qt55")
+
+[node name="Tree4" type="Sprite2D" parent="." unique_id=980548962]
+texture_filter = 1
+position = Vector2(1114, 440.99997)
+scale = Vector2(3.9285724, 2.8999996)
+texture = ExtResource("5_6qt55")
+
+[node name="Tree5" type="Sprite2D" parent="." unique_id=1743336377]
+texture_filter = 1
+position = Vector2(1371, 431)
+scale = Vector2(3.357143, 2.1333337)
+texture = ExtResource("4_ujkd0")
+
+[node name="Tree6" type="Sprite2D" parent="." unique_id=387536931]
+texture_filter = 1
+position = Vector2(1488, 434.00003)
+scale = Vector2(3.0714285, 1.9666667)
+texture = ExtResource("5_6qt55")
+
+[node name="TreePotted3" type="Sprite2D" parent="." unique_id=877027349]
+texture_filter = 1
+position = Vector2(728, 454)
+scale = Vector2(4.2857137, 2.125)
+texture = ExtResource("16_xh758")
+
+[node name="Tree7" type="Sprite2D" parent="." unique_id=1887479218]
+texture_filter = 1
+position = Vector2(408.00003, 441.00003)
+scale = Vector2(3.2142856, 1.7)
+texture = ExtResource("5_6qt55")
+
+[node name="Sign" type="Sprite2D" parent="." unique_id=97287243]
+position = Vector2(554, 434.00003)
+scale = Vector2(1.8333334, 2.2)
+texture = ExtResource("17_aa2uq")
+
+[node name="Sign2" type="Sprite2D" parent="." unique_id=1285957903]
+position = Vector2(20, 444)
+scale = Vector2(1.5499947, 2.6166663)
+texture = ExtResource("17_aa2uq")
+
+[node name="Tree8" type="Sprite2D" parent="." unique_id=237449629]
+texture_filter = 1
+position = Vector2(1209, 446.75)
+scale = Vector2(2.5714242, 2.1833334)
+texture = ExtResource("4_ujkd0")
+
+[node name="Box2" type="Sprite2D" parent="." unique_id=668816777]
+texture_filter = 1
+position = Vector2(665, 484)
+scale = Vector2(3.916664, 1.9000009)
+texture = ExtResource("18_1ekbc")
+
+[node name="Box1" type="Sprite2D" parent="." unique_id=1324207632]
+texture_filter = 1
+position = Vector2(518, 448)
+scale = Vector2(3.2291682, 2.9499993)
+texture = ExtResource("19_gtdfy")
+
+[node name="Box3" type="Sprite2D" parent="." unique_id=793012448]
+texture_filter = 1
+position = Vector2(242, 448)
+scale = Vector2(2.6875, 2.0999992)
+texture = ExtResource("20_5nppw")
+
+[node name="Box4" type="Sprite2D" parent="." unique_id=253756123]
+texture_filter = 1
+position = Vector2(1276.75, 443.50003)
+scale = Vector2(3.7083368, 4.1000004)
+texture = ExtResource("18_1ekbc")
+
+[node name="Box5" type="Sprite2D" parent="." unique_id=277035443]
+texture_filter = 1
+position = Vector2(304, 443.99997)
+scale = Vector2(4.333333, 2.6000016)
+texture = ExtResource("19_gtdfy")
+
+[node name="Green" type="Sprite2D" parent="." unique_id=1047046390]
+texture_filter = 1
+position = Vector2(110.5, 338.25)
+scale = Vector2(4.0454545, 2.8437512)
+texture = ExtResource("13_hek0x")
+
+[node name="Yellow" type="Sprite2D" parent="." unique_id=93115867]
+texture_filter = 1
+position = Vector2(781.00006, 293)
+scale = Vector2(4.791668, 2.272727)
+texture = ExtResource("21_pvrwn")
+
+[node name="Taxi" type="Sprite2D" parent="." unique_id=2097866246]
+texture_filter = 1
+position = Vector2(51, 470.25)
+scale = Vector2(1.625, 1.8333334)
+texture = ExtResource("14_aa2uq")
