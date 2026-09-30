@@ -11,6 +11,7 @@ config_version=5
 [application]
 
 config/name="cross"
+run/main_scene="uid://cpy1ts3yno3s4"
 config/features=PackedStringArray("4.7", "Mobile")
 config/icon="res://icon.svg"
 

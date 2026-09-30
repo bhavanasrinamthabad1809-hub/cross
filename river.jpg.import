@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://ol03244fadq"
-path="res://.godot/imported/village_tiles_transparent.png-5a5a2a8d4925f5efb268fda6d9a1ceea.ctex"
+uid="uid://cc61587uwyqob"
+path="res://.godot/imported/river.jpg-eb6194884b3960ef5160d62eff9242d1.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://village_tiles_transparent.png"
-dest_files=["res://.godot/imported/village_tiles_transparent.png-5a5a2a8d4925f5efb268fda6d9a1ceea.ctex"]
+source_file="res://river.jpg"
+dest_files=["res://.godot/imported/river.jpg-eb6194884b3960ef5160d62eff9242d1.ctex"]
 
 [params]
 

@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cc61587uwyqob"
-path="res://.godot/imported/river 2d animated copyright free.jpg-4b9cfbcd056ee3b4f42758e1992cf15f.ctex"
+uid="uid://b00qx0132mwtn"
+path="res://.godot/imported/tileset grass.png-e3d5e053c95c7895eb99a909eed5408e.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://river 2d animated copyright free.jpg"
-dest_files=["res://.godot/imported/river 2d animated copyright free.jpg-4b9cfbcd056ee3b4f42758e1992cf15f.ctex"]
+source_file="res://tileset grass.png"
+dest_files=["res://.godot/imported/tileset grass.png-e3d5e053c95c7895eb99a909eed5408e.ctex"]
 
 [params]
 
