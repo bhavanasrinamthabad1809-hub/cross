@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://k43ghwiqlujs"
-path="res://.godot/imported/game grass.png-b8eb3baa6ba2e0178661a5bd210f2a67.ctex"
+uid="uid://lmopitkyvqba"
+path="res://.godot/imported/cow again.png-bae39d435ef90f476ecaae894cda1fe5.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://game grass.png"
-dest_files=["res://.godot/imported/game grass.png-b8eb3baa6ba2e0178661a5bd210f2a67.ctex"]
+source_file="res://cow again.png"
+dest_files=["res://.godot/imported/cow again.png-bae39d435ef90f476ecaae894cda1fe5.ctex"]
 
 [params]
 
