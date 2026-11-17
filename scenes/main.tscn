@@ -1,0 +1,19 @@
+[gd_scene format=3 uid="uid://c6ho1ag01o3j1"]
+
+[ext_resource type="PackedScene" uid="uid://cyljg7vxc7xbq" path="res://scenes/wheelone.tscn" id="1_0wfyh"]
+[ext_resource type="PackedScene" uid="uid://b5sinwv1wveqs" path="res://scenes/carone.tscn" id="2_sugp2"]
+
+[node name="main" type="Node2D" unique_id=1381269256]
+
+[node name="PinJoint2D" type="PinJoint2D" parent="." unique_id=1060713824]
+node_a = NodePath("../carone")
+node_b = NodePath("wheelone")
+
+[node name="wheelone" parent="PinJoint2D" unique_id=516881400 instance=ExtResource("1_0wfyh")]
+position = Vector2(439, 613)
+
+[node name="wheelone2" parent="PinJoint2D" unique_id=235283369 instance=ExtResource("1_0wfyh")]
+position = Vector2(702, 610)
+
+[node name="carone" parent="." unique_id=310997226 instance=ExtResource("2_sugp2")]
+position = Vector2(93, 151)
